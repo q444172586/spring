@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://git.oschina.net/q444172586/brave.git
+          uri: https://github.com/q444172586/spring.git
           searchPaths: spring/cloud-config-repo
