@@ -6,8 +6,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * 验证
- * http://127.0.0.1:8888/brave/master
- * http://127.0.0.1:8888/cloud-config-dev.yml
+ * http://127.0.0.1:8070/spring/master
+ * http://127.0.0.1:8070/cloud-config-dev.yml
  *
  */
 @SpringBootApplication
