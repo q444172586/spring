@@ -1,10 +1,6 @@
 package org.spring.utils.job;
 
-import java.util.Date;
-
-import org.quartz.Job;
-import org.quartz.JobExecutionContext;
-import org.quartz.JobExecutionException;
+import org.utils.job.QuartzManager;
 
 public class TestJob {
 	
