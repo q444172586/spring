@@ -63,12 +63,8 @@
    </dependencyManagement>
    
    <modules>
-	<module>cloud-config-server</module>
-	<module>cloud-core</module>
-	<module>cloud-eureka-server</module>
-	<module>cloud-simple-service</module>
-	<module>cloud-simple-ui</module>
 	<module>spring-utils</module>
+	<module>spring-cloud</module>
    </modules>
   
 </project>
