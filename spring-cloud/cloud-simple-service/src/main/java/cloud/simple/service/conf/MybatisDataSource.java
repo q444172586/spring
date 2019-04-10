@@ -13,10 +13,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
-@Configuration
-@EnableConfigurationProperties(DataSourceProperties.class)
-//mybaits dao 搜索路径
-@MapperScan("cloud.simple.service.dao")
+//@Configuration
+//@EnableConfigurationProperties(DataSourceProperties.class)
+////mybaits dao 搜索路径
+//@MapperScan("cloud.simple.service.dao")
 public class MybatisDataSource {
 	
 	@Autowired

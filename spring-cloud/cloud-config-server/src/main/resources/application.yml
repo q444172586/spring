@@ -6,4 +6,4 @@ spring:
       server:
         git:
           uri: https://github.com/q444172586/spring.git
-          searchPaths: cloud-config-repo
+          searchPaths: spring-cloud/cloud-config-repo

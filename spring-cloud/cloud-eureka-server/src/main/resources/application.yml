@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: cloud-eureka-server
+
 server:
   port: 8071
   
