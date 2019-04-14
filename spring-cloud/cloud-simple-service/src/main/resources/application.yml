@@ -3,11 +3,11 @@ spring:
     name: cloud-simple-service
 
 server:
-  port: 8072
+  port: 8200
   
 eureka:
   instance:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone: http://localhost:8071/eureka/
+      defaultZone: http://localhost:8100/eureka/,http://localhost:8101/eureka/,http://localhost:8102/eureka/

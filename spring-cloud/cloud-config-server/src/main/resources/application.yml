@@ -1,6 +1,9 @@
 server:
-  port: 8070
+  port: 8000
+  
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:

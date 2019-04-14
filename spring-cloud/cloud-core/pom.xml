@@ -13,6 +13,13 @@
   <name>cloud-core</name>
   <description>cloud-core</description>
   
+  <dependencies> 
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+	</dependency>
+  </dependencies>
+  
   <build>
 	<plugins>
          <plugin>  

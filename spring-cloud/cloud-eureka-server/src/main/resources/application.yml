@@ -1,15 +1,52 @@
 spring:
   application:
     name: cloud-eureka-server
+  profiles: 8100
 
 server:
-  port: 8071
+  port: 8100
   
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka1
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:8101/eureka/,http://localhost:8102/eureka/
+      
+---
+spring:
+  application:
+    name: cloud-eureka-server
+  profiles: 8101
+
+server:
+  port: 8101
+  
+eureka:
+  instance:
+    hostname: eureka2
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/,http://localhost:8102/eureka/
+      
+---
+spring:
+  application:
+    name: cloud-eureka-server
+  profiles: 8102
+
+server:
+  port: 8102
+  
+eureka:
+  instance:
+    hostname: eureka3
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/,http://localhost:8101/eureka/
