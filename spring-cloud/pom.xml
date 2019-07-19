@@ -59,5 +59,7 @@
 	<module>cloud-eureka-server</module>
 	<module>cloud-simple-service</module>
 	<module>cloud-simple-ui</module>
+    <module>cloud-monitor-client</module>
+    <module>cloud-websocket</module>
   </modules>
 </project>
