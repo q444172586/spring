@@ -1,4 +1,4 @@
-package cloud.core.utils;
+package org.utils;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

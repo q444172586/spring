@@ -15,5 +15,6 @@
 
   <modules>
     <module>spring-mybatis</module>
+      <module>spring-core</module>
   </modules>
 </project>
